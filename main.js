@@ -65,6 +65,7 @@ const getLatestNews = async () => {
 
 //주제별 클릭 시, 기사노출
 const getNewsByTopic = async (event) => {
+    page = 1;
     let topic = event.target.textContent.toLowerCase();
     url = new URL(`https://api.newscatcherapi.com/v2/latest_headlines?countries=KR&page_size=10&topic=${topic}`);
     getNews();
