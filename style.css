@@ -3,13 +3,16 @@
     display: flex;
     justify-content: center;
 }
+.head-line a{
+    width: 430px;
+}
 
 .menus {
     margin-top: 1em;
     display: flex;
     justify-content: center;
     flex-wrap :wrap;
-    border-top: 1px solid #ebebeb;
+    border-top: 2px solid #ebebeb;
     border-bottom: 4px double black;
 }
 
@@ -21,7 +24,7 @@
 
 /* 마우스 커서 가져다 댈 때 버튼색깔변화! */
 .menus button:hover{ 
-    background-color: beige;
+    background-color: burlywood;
 }
 
 .news-img-size{
@@ -33,5 +36,8 @@
     border-bottom: 2px solid black;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.pagination{
+    justify-content: center;
 }
 

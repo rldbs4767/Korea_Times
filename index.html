@@ -15,61 +15,94 @@
     <section class="container">
 
 
-
-        <section>
+        <div class="head-line-section">
+            <!-- 키워드 검색 -->
             <div>
-                <input type="text" id="search-input">
-                <button id="search-button">GO!</button>
+                <div id="input-area">
+                    <input type="text" id="search-input">
+                    <button type="button" id="search-button">Search</button>
+                </div>
             </div>
+
+            <!-- 헤드라인 -->
             <div class="head-line">
-                <a href="https://korea-times-by-kiyoon.netlify.app">
+                <a href="#">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkFk-5AEzV9iumvJ-5_zupGAx7xlv2lwT0YQ&usqp=CAU"
-                        alt="타임즈로고">
+                        alt="페이지 로고">
                 </a>
             </div>
 
+            <!-- 주제별 버튼들 -->
             <div class="menus">
-                <button>Sport</button>
-                <button>Tech</button>
-                <button>World</button>
-                <button>Finance</button>
-                <button>Politics</button>
-                <button>Business</button>
-                <button>Economics</button>
-                <button>Entertainment</button>
-                <button>Beauty</button>
-                <button>Travel</button>
-                <button>Music</button>
-                <button>Food</button>
-                <button>Science</button>
-                <button>Gaming</button>
-                <button>Energy</button>
+                <button type="button">Sport</button>
+                <button type="button">Tech</button>
+                <button type="button">World</button>
+                <button type="button">Finance</button>
+                <button type="button">Politics</button>
+                <button type="button">Business</button>
+                <button type="button">Economics</button>
+                <button type="button">Entertainment</button>
+                <button type="button">Beauty</button>
+                <button type="button">Travel</button>
+                <button type="button">Music</button>
+                <button type="button">Food</button>
+                <button type="button">Science</button>
+                <button type="button">Gaming</button>
+                <button type="button">Energy</button>
             </div>
 
-        </section>
+        </div>
 
+        <!-- 뉴스기사들 -->
+        <div id="news-board">
 
+            <!-- <div class="row news">
+                <div class="col-lg-4">
+                    <img class="news-img-size" src="https://dimg.donga.com/ugc/CDB/WEEKLY/Article/60/62/80/93/606280930c4bd2738de6.jpg" alt="기사 이미지">
+                </div>
+                <div class="col-lg-8">
+                    <h2>
+                        타이틀
+                    </h2>
+                    <p>
+                        내용~
+                    </p>
+                    <div>
+                        출처 발행일자
+                    </div>
+                </div>
+            </div> -->
 
-        <!-- 뉴스생성 in js-->
-        <section id="news-board">
-        </section>
+        </div>
 
-        <section>
-            <nav aria-label="Page navigation example"></nav>
+        <!-- 페이지 네비 -->
+        <nav aria-label="Page navigation example">
             <ul class="pagination">
-                
+                <!-- <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&lt;</span>
+                    </a>
+                  </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&gt;</span>
+                    </a>
+                  </li> -->
             </ul>
-        </section>
-
+        </nav>
 
 
     </section>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="./main.js"></script>
+
 </body>
 
 </html>
